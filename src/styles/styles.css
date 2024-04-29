@@ -1,0 +1,23 @@
+  .container {
+    display: flex;
+    margin-top: 80px;
+    gap: 20px;
+    flex-wrap: wrap;
+} 
+
+.search {
+    position: sticky;
+    max-width: 40%;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card {
+  height: fit-content;
+}
+
+
+#template {
+  display: none;
+}
